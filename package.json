@@ -1,0 +1,22 @@
+{
+  "name": "nuxt-netlify-cms-module-example",
+  "version": "1.0.0",
+  "description": "Easy Netlify CMS integration with nuxt.js example",
+  "dependencies": {
+    "@nuxtjs/axios": "^4.3.0",
+    "netlify-cms": "^1.7.0",
+    "nuxt": "latest",
+    "nuxt-netlify-cms": "latest",
+    "nuxtent": "latest"
+  },
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "devDependencies": {
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.1"
+  }
+}
