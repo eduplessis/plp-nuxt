@@ -6,8 +6,7 @@
     "@nuxtjs/axios": "^4.3.0",
     "netlify-cms": "^1.7.0",
     "nuxt": "latest",
-    "nuxt-netlify-cms": "latest",
-    "nuxtent": "latest"
+    "nuxt-netlify-cms": "latest"
   },
   "scripts": {
     "dev": "nuxt",
@@ -17,6 +16,7 @@
   },
   "devDependencies": {
     "node-sass": "^4.9.0",
-    "sass-loader": "^7.0.1"
+    "sass-loader": "^7.0.1",
+    "glob": "^7.1.2"
   }
 }
