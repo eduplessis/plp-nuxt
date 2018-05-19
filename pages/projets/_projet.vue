@@ -1,8 +1,12 @@
 <template>
 <div>
-    <h1>{{ title }}</h1>
-		<div v-html="body" />
-    <img :src="image" alt="">
+  <div class="container">
+    <h1 class="post-title">{{ title }}</h1>
+    <div class="content">
+      <img :src="image" alt="">
+      <div>{{body}}</div>
+    </div>
+  </div>
 </div>
 </template>
 
@@ -14,3 +18,18 @@ export default {
   }
 }
 </script>
+
+<style lang="scss" scoped>
+.post-title{
+  grid-column: span 1;
+}
+.content{
+  grid-column: span 2;
+  img{
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+  }
+}
+</style>
+
