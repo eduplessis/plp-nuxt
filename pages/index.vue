@@ -8,8 +8,9 @@
     </div>
     <div class="projets container">
       <div v-for="post in posts" :key="post._path"  class="projet">
-        <p>Ayant plus de 15 ans d’expérience dans le domaine, PLP Constructions Inc. est une compagnie en construction général et rénovation autant dans le domaine résidentiel, commercial et institutionnel. Établi à Acton Vale en Montérégie, PLP Constructions Inc. réalise de nombreux projets dans sa région, desservant les régions de St-Hyacinthe, Granby et Drummonville.</p>
-        <nuxt-link :to="post._path" >{{post.title}}</nuxt-link>
+        <nuxt-link :to="post._path">
+          <img :src="post.image" alt="">
+        </nuxt-link>
       </div>
     </div>
   </div>
@@ -35,6 +36,22 @@ export default {
 }
 .projets{
   grid-column: 1 / -1;
+  .projet{
+    background: rgb(97, 9, 9);
+    position: relative;
+    min-height: 320px;
+    a{
+      line-height: 0;
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+    img{
+      width: 100%;
+      height: 320px;
+      object-fit: cover;
+    }
+  }
 }
 
 </style>
