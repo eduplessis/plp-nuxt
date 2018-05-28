@@ -10,6 +10,10 @@
       <div v-for="post in posts" :key="post._path"  class="projet">
         <nuxt-link :to="post._path">
           <img :src="post.image" alt="">
+          <div class="meta">
+            <h1 class="title">{{post.title}}</h1>
+            <div class="type">{{post.type}}</div>
+          </div>
         </nuxt-link>
       </div>
     </div>
@@ -25,7 +29,7 @@ export default {
       ...context(key),
       _path: `/projets/${key.replace('.json', '').replace('./', '')}`
     }));
-    return { posts };
+    return { posts: posts.reverse() };
   }
 };
 </script>
@@ -39,18 +43,55 @@ export default {
   .projet{
     background: rgb(97, 9, 9);
     position: relative;
-    min-height: 320px;
+    height: 215px;
+    
+
     a{
-      line-height: 0;
       display: block;
       width: 100%;
-      height: 100%;
+      height: 215px;
+      color: #fff;
+
+      img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        // filter: brightness(100%)  saturate(100%);
+        transition: all 0.25s ease-out;
+      }
+      .meta{
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        padding: 40px 20px 30px;
+        text-align: left;
+
+        .title{
+          font-size: 1.2em;
+          opacity: 1;
+          font-weight: 700;
+          text-transform: uppercase;
+          margin-bottom: 0;
+          text-shadow: 0px 0px 2px rgba(0,0,0,0.5);
+        }
+        .type{
+          font-size: 0.9em;
+          opacity: 1;
+          font-weight: 300;
+          line-height: 1;
+          margin-top: -2px;
+
+        }
+      }
+
+      &:hover{
+        img{
+          filter: brightness(20%) saturate(300%);
+        }
+      }
     }
-    img{
-      width: 100%;
-      height: 320px;
-      object-fit: cover;
-    }
+    
   }
 }
 

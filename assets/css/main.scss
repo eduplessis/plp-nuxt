@@ -38,7 +38,7 @@ section.section{
   max-width: 1024px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  grid-template-rows: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(215px, 1fr));
   grid-gap: 20px;
 }
 footer {

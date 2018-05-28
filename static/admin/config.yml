@@ -1,7 +1,6 @@
 backend:
   name: github
   repo: eduplessis/plp-nuxt # Change to your repo
-  # url: http://localhost:3000
 
 media_folder: "static/uploads" # Folder where user uploaded files should go
 public_folder: "/uploads"
@@ -14,9 +13,16 @@ collections: # A list of collections the CMS should be able to edit
     format: 'json'
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
-      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-      - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mma"}
-      - {label: "Cover Image", name: "image", widget: "image", required: false, tagname: ""}
+      - {label: "Titre", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Date du Projet", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
+      - {label: "Type de Projet", name: "type", widget: "select", options: ["residentiel", "commercial", "scolaire"]}
+      - {label: "Cover Image", name: "image", widget: "image", required: true, tagname: ""}
       - {label: "Body", name: "body", widget: "markdown"}
+      - label: "Gallery"
+        name: "gallery"
+        widget: "list"
+        required: false
+        fields:
+          - {label: Image, name: images, widget: image}
     meta:
       - {label: "SEO Description", name: "description", widget: "text"}

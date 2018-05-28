@@ -22,8 +22,13 @@ module.exports = {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'Plp Constructions inc.' }
+    ],
+    script: [
+      {
+        src: "https://cdn.jsdelivr.net/npm/lightense-images@1/lightense.min.js"
+      }
     ]
-  },
+  }
 };
 
 
