@@ -26,6 +26,9 @@ module.exports = {
     script: [
       {
         src: "https://cdn.jsdelivr.net/npm/lightense-images@1/lightense.min.js"
+      },
+      {
+        src: "https://identity.netlify.com/v1/netlify-identity-widget.js"
       }
     ]
   }
