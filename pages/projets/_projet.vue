@@ -38,9 +38,7 @@ export default {
 </script>
 
 <style lang="scss">
-.single.container{
-  // grid-template-rows: 320px;
-}
+
 .post-title{
   grid-column: span 1;
 }
