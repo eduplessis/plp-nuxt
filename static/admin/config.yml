@@ -16,7 +16,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Titre", name: "title", widget: "string", tagname: "h1"}
       - {label: "Mise en avant", name: "featured", widget: "boolean", default: false}
       - {label: "Date du Projet", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
-      - {label: "Type de Projet", name: "type", widget: "select", options: ["residentiel", "commercial", "scolaire"]}
+      - {label: "Type de Projet", name: "type", widget: "select", options: ["residentiel", "commercial", "industriel", "renovation"]}
       - {label: "Cover Image", name: "image", widget: "image", required: true, tagname: ""}
       - {label: "Body", name: "body", widget: "markdown"}
       - label: "Gallery"
