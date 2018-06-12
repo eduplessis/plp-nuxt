@@ -14,6 +14,7 @@ collections: # A list of collections the CMS should be able to edit
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - {label: "Titre", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Mise en avant", name: "featured", widget: "boolean", default: false}
       - {label: "Date du Projet", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
       - {label: "Type de Projet", name: "type", widget: "select", options: ["residentiel", "commercial", "scolaire"]}
       - {label: "Cover Image", name: "image", widget: "image", required: true, tagname: ""}
@@ -37,6 +38,25 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Boite residensiel, name: box-residentiel, widget: markdown}
           - {label: Boite commercial, name: box-commercial, widget: markdown}
           - {label: Boite industriel, name: box-industriel, widget: markdown}
-          - {label: Boite institutionnel, name: box-institutionnel, widget: markdown}
           - {label: Boite renovations, name: box-renovations, widget: markdown}
+      - label: "Residentiel"
+        name: "residentiel"
+        file: "content/residentiel.json"
+        fields:
+          - {label: Intro, name: intro, widget: markdown}
+      - label: "Commercial"
+        name: "commercial"
+        file: "content/commercial.json"
+        fields:
+          - {label: Intro, name: intro, widget: markdown}
+      - label: "Industriel"
+        name: "industriel"
+        file: "content/industriel.json"
+        fields:
+          - {label: Intro, name: intro, widget: markdown}
+      - label: "Renovations"
+        name: "renovations"
+        file: "content/renovations.json"
+        fields:
+          - {label: Intro, name: intro, widget: markdown}
 
