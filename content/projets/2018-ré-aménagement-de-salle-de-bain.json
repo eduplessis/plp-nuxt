@@ -1,0 +1,24 @@
+{
+  "title": "Ré-aménagement de salle de bain",
+  "featured": true,
+  "date": "2018-06-20",
+  "type": "renovation",
+  "image": "/uploads/13247707_494268320780545_8485642033547218672_o.jpg",
+  "body": "Refaire la salle de bain du sous-sol.",
+  "gallery": [
+    {
+      "images": "/uploads/13247961_494268387447205_5396459959919756552_o.jpg"
+    },
+    {
+      "images": "/uploads/13267862_495072697366774_6869603017296282795_n.jpg"
+    },
+    {
+      "images": "/uploads/13301544_495072644033446_7970859485043177233_o.jpg"
+    },
+    {
+      "images": "/uploads/13268322_495072654033445_3300262059419445780_o.jpg"
+    },
+    {},
+    {}
+  ]
+}
