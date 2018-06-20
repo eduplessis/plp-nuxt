@@ -1,0 +1,16 @@
+{
+  "title": "Structure et revêtement à Acton Vale",
+  "featured": true,
+  "date": "Invalid date",
+  "type": "residentiel",
+  "image": "/uploads/p1050364.jpg",
+  "body": "Auto-construction, nous avons eux le plaisirs de travailler à réaliser le rêve de notre clients.",
+  "gallery": [
+    {
+      "images": "/uploads/p1050364.jpg"
+    },
+    {
+      "images": "/uploads/p1050363.jpg"
+    }
+  ]
+}
