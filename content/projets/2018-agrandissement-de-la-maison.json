@@ -1,0 +1,22 @@
+{
+  "title": "Agrandissement de la maison",
+  "featured": true,
+  "date": "2013-06-01",
+  "type": "residentiel",
+  "image": "/uploads/150215_202188323321881_1879169552_n.jpg",
+  "body": "Vous avez besoin de plus d'espace, nous sommes en mesures de vous aidez.",
+  "gallery": [
+    {
+      "images": "/uploads/150215_202188323321881_1879169552_n.jpg"
+    },
+    {
+      "images": "/uploads/1511688_202188336655213_1531996258_n.jpg"
+    },
+    {
+      "images": "/uploads/1535669_202188256655221_1254092643_n.jpg"
+    },
+    {
+      "images": "/uploads/10305182_249488178591895_2850005143485814136_n.jpg"
+    }
+  ]
+}
