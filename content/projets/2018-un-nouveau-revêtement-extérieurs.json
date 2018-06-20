@@ -1,0 +1,22 @@
+{
+  "title": "Un nouveau revêtement extérieurs.",
+  "featured": true,
+  "date": "2018-06-20",
+  "type": "renovation",
+  "image": "/uploads/rénovationcastelneau.jpg",
+  "body": "Ils ont choisis de donner un brin de jeunesse à leur maison.",
+  "gallery": [
+    {
+      "images": "/uploads/14054515_521124314761612_1871199779961810928_o.jpg"
+    },
+    {
+      "images": "/uploads/14124537_521124278094949_7798960126844779501_o.jpg"
+    },
+    {
+      "images": "/uploads/rénovationcastelneau.jpg"
+    },
+    {
+      "images": "/uploads/rénovationcastelneau2.jpg"
+    }
+  ]
+}
