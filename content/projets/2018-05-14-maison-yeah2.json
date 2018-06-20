@@ -1,6 +1,13 @@
 {
-  "title": "Hello world",
+  "title": "Structure neuve - Résidence Acton Vale",
+  "featured": true,
   "date": "2018-02-13T19:32:44.767Z",
-  "image": "",
-  "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce facilisis accumsan quam at porta. Duis ut tempus risus, et rutrum augue. Donec id felis quis leo scelerisque accumsan sit amet quis leo. In fermentum tellus non mattis tincidunt. Pellentesque erat tortor, dictum vel efficitur id, convallis a turpis. Sed nibh sapien, tempus a tortor eu, finibus facilisis orci. Integer placerat, lorem nec placerat lacinia, lorem sapien rutrum eros, vitae lobortis dui risus vitae quam. In tristique vel ligula at vestibulum. Mauris consequat faucibus neque in malesuada. Vestibulum scelerisque, elit vel vehicula lobortis, ante nisl aliquet ex, quis scelerisque dui justo at dui. Integer at augue et elit accumsan rhoncus quis et ex. Duis id velit eu augue suscipit condimentum quis a lacus. Aliquam eu iaculis lacus, nec volutpat augue. Phasellus fermentum, dolor at commodo rhoncus, orci metus viverra magna, at finibus lectus libero sed urna. Donec eget pretium elit, sed bibendum mauris. Nullam a porta ante. Aenean aliquam, erat et porta ullamcorper, lorem ligula pretium ante, id volutpat augue tellus non ipsum. Morbi finibus mauris id nunc malesuada lacinia ac eget libero. Praesent bibendum nisi felis. Nullam ac turpis non neque commodo commodo. Curabitur dictum augue dui, id euismod neque eleifend ac. Sed a eros rhoncus, viverra nisl in, pharetra elit. Praesent purus ex, pellentesque id enim sed, iaculis volutpat metus. Aliquam in augue vitae orci iaculis condimentum quis id tellus.Quisque gravida augue vel leo aliquet finibus. Phasellus fermentum justo non mauris lobortis fringilla. Nullam lacinia mauris justo, condimentum accumsan augue tempus non. Curabitur ultrices ornare urna. Maecenas molestie egestas ipsum sed elementum. Donec aliquet placerat nunc, sed commodo elit ultrices a. Nulla elementum sodales purus, ut luctus nunc tempus in. Mauris et est rutrum, elementum enim vitae, vulputate augue. Quisque auctor sapien quis nibh imperdiet, nec tristique mi mollis. Fusce in feugiat sapien. Maecenas tristique vel risus a ultrices."
+  "type": "renovation",
+  "image": "/uploads/structure-acton-vale2.jpg",
+  "body": "Voici une structure de maison neuve pour un client auto-constructeur à Acton Vale. La structure du toit du garage est conçu pour accueillir une terrasse pouvant supporter un spas.",
+  "gallery": [
+    {
+      "images": "/uploads/structure-acton-vale.jpg"
+    }
+  ]
 }
