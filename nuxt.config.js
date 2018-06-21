@@ -9,7 +9,7 @@ var dynamicRoutes = getDynamicPaths({
 });
 
 module.exports = {
-  modules: ["nuxt-netlify-cms"],
+  modules: ["nuxt-netlify-cms","bootstrap-vue/nuxt"],
   css: [
     '@/assets/css/main.scss'
   ],
